@@ -71,7 +71,7 @@ plt.scatter(..., c=ip_404_counts['anomaly'], cmap='coolwarm')
 ✅ Sample Output
 
 
-Red dots represent anomalous IPs (likely attackers)
+Dots represent anomalous IPs (likely attackers)
 
 📌 Use Cases
 
