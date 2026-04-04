@@ -25,8 +25,47 @@
         <mxCell id="0nKJUpFfSBux9faa9ttb-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;SERVICE_DIM&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="160" x="640" y="260" as="geometry" />
         </mxCell>
-        <mxCell id="0nKJUpFfSBux9faa9ttb-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;CUSTOMER_DIM&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="160" x="70" y="460" as="geometry" />
+        <mxCell id="0nKJUpFfSBux9faa9ttb-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;HOTEL_DIM&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="160" x="60" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="QL5LA0_UurrJQoeUKlhd-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;BUILDING_DIM&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="160" x="60" y="850" as="geometry" />
+        </mxCell>
+        <mxCell id="QL5LA0_UurrJQoeUKlhd-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;WING_DIM&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="160" x="60" y="940" as="geometry" />
+        </mxCell>
+        <mxCell id="QL5LA0_UurrJQoeUKlhd-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;ROOM_DIM&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="160" x="60" y="1020" as="geometry" />
+        </mxCell>
+        <mxCell id="QL5LA0_UurrJQoeUKlhd-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;FACILITY_DIM&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="160" x="270" y="1020" as="geometry" />
+        </mxCell>
+        <mxCell id="QL5LA0_UurrJQoeUKlhd-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="REVENUE_FACT" vertex="1">
+          <mxGeometry height="60" width="160" x="330" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="QL5LA0_UurrJQoeUKlhd-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="UTILIZATION_FACT" vertex="1">
+          <mxGeometry height="60" width="160" x="130" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="QL5LA0_UurrJQoeUKlhd-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="BOOKING_SERVICE_FACT" vertex="1">
+          <mxGeometry height="60" width="160" x="500" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="QL5LA0_UurrJQoeUKlhd-8" edge="1" parent="1" source="0nKJUpFfSBux9faa9ttb-3" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;startSize=8;endSize=8;curved=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="100" relative="1" width="100" as="geometry">
+            <mxPoint x="300" y="280" as="sourcePoint" />
+            <mxPoint x="320" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QL5LA0_UurrJQoeUKlhd-9" edge="1" parent="1" source="0nKJUpFfSBux9faa9ttb-3" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;startSize=8;endSize=8;curved=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="QL5LA0_UurrJQoeUKlhd-6" value="">
+          <mxGeometry height="100" relative="1" width="100" as="geometry">
+            <mxPoint x="350" y="340" as="sourcePoint" />
+            <mxPoint x="340" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QL5LA0_UurrJQoeUKlhd-10" edge="1" parent="1" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;startSize=8;endSize=8;curved=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="QL5LA0_UurrJQoeUKlhd-7" value="">
+          <mxGeometry height="100" relative="1" width="100" as="geometry">
+            <mxPoint x="340" y="110" as="sourcePoint" />
+            <mxPoint x="370" y="610" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
